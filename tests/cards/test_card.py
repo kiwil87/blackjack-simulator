@@ -1,5 +1,5 @@
 import pytest
-from cards.card import Card
+from cards import Card
 
 @pytest.mark.parametrize("rank,suit,expected", [
     ("2", "Hearts", 2),

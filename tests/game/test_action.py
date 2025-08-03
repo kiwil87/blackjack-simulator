@@ -1,5 +1,5 @@
 import pytest
-from game.action import Action
+from game import Action
 
 def test_enum_members_and_order():
     # Enum preserves definition order

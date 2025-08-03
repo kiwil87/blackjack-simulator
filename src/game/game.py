@@ -1,4 +1,4 @@
-from src.cards import Card, Shoe, Hand
+from cards import Card, Shoe, Hand
 from .action import Action
 from .dealer import Dealer
 from .player import Player

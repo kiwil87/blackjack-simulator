@@ -1,6 +1,6 @@
 import pytest
 from cards import Card, Shoe
-from game.dealer import Dealer
+from game import Dealer
 
 def test_init_defaults():
     dealer = Dealer()

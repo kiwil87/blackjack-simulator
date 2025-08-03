@@ -1,7 +1,6 @@
 import pytest
 from cards import Card, Hand
-from game.action import Action
-from game.player import Player
+from game import Action, Player
 
 class FakeStrategy:
     def __init__(self):

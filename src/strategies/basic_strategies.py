@@ -1,5 +1,5 @@
-from src.cards import Card, Hand
-from src.game.action import Action
+from cards import Card, Hand
+from game import Action
 from .strategy import Strategy
 
 import random

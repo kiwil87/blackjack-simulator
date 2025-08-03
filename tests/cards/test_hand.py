@@ -1,6 +1,5 @@
 import pytest
-from cards.hand import Hand
-from cards.card import Card
+from cards import Card, Hand
 
 def test_init_defaults():
     hand = Hand()

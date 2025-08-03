@@ -1,6 +1,6 @@
-from src.cards import Card, Hand 
+from cards import Card, Hand 
 from .action import Action
-from src.strategies.strategy import Strategy
+from strategies import Strategy
 
 class Player:
     """

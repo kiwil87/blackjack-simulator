@@ -1,4 +1,4 @@
-from src.cards import Card, Hand, Shoe
+from cards import Card, Hand, Shoe
 
 class Dealer:
     """
